@@ -9,8 +9,12 @@ const std::string
 
 class GraphicsModule {
 public:
-    GraphicsModule();
+    GraphicsModule(sf::RenderWindow&);
+
+    void clear();
+    sf::RenderWindow &getRenderTarget();
+    void display();
 
 //private:
-    sf::RenderWindow window;
+    sf::RenderWindow& window;
 };

@@ -6,7 +6,7 @@
 int main() {
     Engine engine;
 
-    auto &window = engine.graphics.window;
+    auto &window = engine.window;
 
     sf::CircleShape shape(100);
     shape.setFillColor(sf::Color::Blue);
@@ -17,8 +17,8 @@ int main() {
                 window.close();
             }
         }
-        window.clear();
-        window.draw(shape);
-        window.display();
+        engine.graphics.clear();
+        engine.graphics.getRenderTarget().draw(shape);
+        engine.graphics.display();
     }
 }

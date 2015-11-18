@@ -11,6 +11,7 @@ public:
     ~Engine();
 //private:
     GraphicsModule graphics;
+    sf::RenderWindow window;
 };
 
 
