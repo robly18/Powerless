@@ -43,7 +43,11 @@
 		</Linker>
 		<Unit filename="Main/Engine/Engine.cpp" />
 		<Unit filename="Main/Engine/Engine.hpp" />
+		<Unit filename="Main/Engine/GraphicsModule/GraphicsModule.cpp" />
 		<Unit filename="Main/Engine/GraphicsModule/GraphicsModule.hpp" />
+		<Unit filename="Main/Engine/InputModule/InputModule.hpp" />
+		<Unit filename="Main/Listener.cpp" />
+		<Unit filename="Main/Listener.hpp" />
 		<Unit filename="Main/Main.cpp" />
 		<Extensions>
 			<code_completion />
