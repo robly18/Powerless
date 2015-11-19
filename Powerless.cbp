@@ -45,9 +45,14 @@
 		<Unit filename="Main/Engine/Engine.hpp" />
 		<Unit filename="Main/Engine/GraphicsModule/GraphicsModule.cpp" />
 		<Unit filename="Main/Engine/GraphicsModule/GraphicsModule.hpp" />
+		<Unit filename="Main/Engine/InputModule/InputModule.cpp" />
 		<Unit filename="Main/Engine/InputModule/InputModule.hpp" />
-		<Unit filename="Main/Listener.cpp" />
-		<Unit filename="Main/Listener.hpp" />
+		<Unit filename="Main/Engine/WorldModule/MenuModule/Menu.cpp" />
+		<Unit filename="Main/Engine/WorldModule/MenuModule/Menu.hpp" />
+		<Unit filename="Main/Engine/WorldModule/MenuModule/MenuModule.cpp" />
+		<Unit filename="Main/Engine/WorldModule/MenuModule/MenuModule.hpp" />
+		<Unit filename="Main/Engine/WorldModule/WorldModule.cpp" />
+		<Unit filename="Main/Engine/WorldModule/WorldModule.hpp" />
 		<Unit filename="Main/Main.cpp" />
 		<Extensions>
 			<code_completion />

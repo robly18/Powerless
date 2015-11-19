@@ -2,6 +2,7 @@
 #define MENUMODULE_H
 
 #include <SFML/Graphics.hpp>
+#include "Menu.hpp"
 
 class WorldModule;
 
@@ -12,7 +13,7 @@ public:
     void render(sf::RenderTarget&);
     void handleEvent(sf::Event&, WorldModule&);
 
-
+    Menu &root;
 };
 
 #endif
