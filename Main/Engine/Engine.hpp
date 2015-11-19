@@ -8,13 +8,13 @@
 class Engine {
 public:
     Engine();
-
     ~Engine();
-//private:
-    sf::RenderWindow window;
+
     GraphicsModule graphics;
     InputModule input;
     WorldModule world;
+
+    sf::RenderWindow window;
 };
 
 

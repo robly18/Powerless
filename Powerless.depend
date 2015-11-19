@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1447961103 source:c:\code\cplusplus\code\powerless\main\main.cpp
+1447964185 source:c:\code\cplusplus\code\powerless\main\main.cpp
 	<iostream>
 	"Engine/Engine.hpp"
 	<SFML/Graphics.hpp>
@@ -382,7 +382,7 @@
 	<string>
 	<vector>
 
-1447961047 c:\code\cplusplus\code\powerless\main\engine\engine.hpp
+1447964198 c:\code\cplusplus\code\powerless\main\engine\engine.hpp
 	"GraphicsModule/GraphicsModule.hpp"
 	"InputModule/InputModule.hpp"
 	"WorldModule/WorldModule.hpp"
@@ -403,9 +403,18 @@
 	<SFML/Graphics.hpp>
 	"../WorldModule/WorldModule.hpp"
 
-1447961016 c:\code\cplusplus\code\powerless\main\engine\worldmodule\worldmodule.hpp
+1447964758 c:\code\cplusplus\code\powerless\main\engine\worldmodule\worldmodule.hpp
 	<SFML/Graphics.hpp>
+	"MenuModule/MenuModule.hpp"
 
 1447960881 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\worldmodule.cpp
 	"WorldModule.hpp"
+
+1447964099 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\menumodule\menumodule.cpp
+	"MenuModule.hpp"
+
+1447964790 c:\code\cplusplus\code\powerless\main\engine\worldmodule\menumodule\menumodule.hpp
+	<SFML/Graphics.hpp>
+
+1447964548 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\menumodule\menu.cpp
 
