@@ -47,6 +47,8 @@
 		<Unit filename="Main/Engine/GraphicsModule/GraphicsModule.hpp" />
 		<Unit filename="Main/Engine/InputModule/InputModule.cpp" />
 		<Unit filename="Main/Engine/InputModule/InputModule.hpp" />
+		<Unit filename="Main/Engine/WorldModule/MenuModule/GameMenu/GameMenu.cpp" />
+		<Unit filename="Main/Engine/WorldModule/MenuModule/GameMenu/GameMenu.hpp" />
 		<Unit filename="Main/Engine/WorldModule/MenuModule/Menu.cpp" />
 		<Unit filename="Main/Engine/WorldModule/MenuModule/Menu.hpp" />
 		<Unit filename="Main/Engine/WorldModule/MenuModule/MenuModule.cpp" />

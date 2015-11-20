@@ -8,5 +8,5 @@ void MenuModule::render(sf::RenderTarget &target) {
 }
 
 void MenuModule::handleEvent(sf::Event &event, WorldModule &world) {
-
+    root.handleEvent(event, world);
 }
