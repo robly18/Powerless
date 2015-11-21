@@ -1,5 +1,9 @@
 #include "GameMenu.hpp"
 
+GameMenu::GameMenu() {
+
+}
+
 void GameMenu::drawOn(sf::RenderTarget &target) {
 
 }
