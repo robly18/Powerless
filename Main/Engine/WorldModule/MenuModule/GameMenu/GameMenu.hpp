@@ -1,5 +1,5 @@
 #include "../Menu.hpp"
-
+#include "../../GameModules/SimulationModule.hpp"
 
 class GameMenu : public Menu {
     GameMenu();

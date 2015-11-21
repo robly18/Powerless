@@ -432,9 +432,11 @@
 1448058096 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\simulationmodule.cpp
 	"SimulationModule.hpp"
 
-1448058123 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\simulationmodule.hpp
+1448110784 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\simulationmodule.hpp
 	"../MenuModule/MenuModule.hpp"
+	<queue>
 
-1448057138 c:\code\cplusplus\code\powerless\main\engine\worldmodule\menumodule\gamemenu\gamemenu.hpp
+1448110741 c:\code\cplusplus\code\powerless\main\engine\worldmodule\menumodule\gamemenu\gamemenu.hpp
 	"../Menu.hpp"
+	"../../GameModules/SimulationModule.hpp"
 
