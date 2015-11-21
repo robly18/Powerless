@@ -9,9 +9,9 @@ void GameMenu::drawOn(sf::RenderTarget &target) {
 }
 
 void GameMenu::actOnEvent(sf::Event &e, WorldModule &w) {
-
+    game.simulation.pushToQueue(e);
 }
 
 void GameMenu::doUpdate(WorldModule &w) {
-
+    game.simulation.doTick(game);
 }

@@ -3,6 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include "MenuModule/MenuModule.hpp"
+#include "GameModules/GameModule.hpp"
 
 class WorldModule {
 public:
@@ -10,6 +11,7 @@ public:
     void handleEvent(sf::Event&);
 
     MenuModule menu;
+    GameModule *getGameModule();
 };
 
 #endif

@@ -7,3 +7,7 @@ void WorldModule::render(sf::RenderTarget &target) {
 void WorldModule::handleEvent(sf::Event &e) {
     menu.handleEvent(e, *this);
 }
+
+GameModule *WorldModule::getGameModule() {
+    return nullptr;
+}

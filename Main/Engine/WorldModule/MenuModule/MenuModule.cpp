@@ -1,6 +1,10 @@
 #include "MenuModule.hpp"
 
-MenuModule::MenuModule() : root(*new TestMenu) {
+MenuModule::MenuModule() : root(*new GameMenu) {
+}
+
+void MenuModule::update(WorldModule &w) {
+    root.update(w);
 }
 
 void MenuModule::render(sf::RenderTarget &target) {

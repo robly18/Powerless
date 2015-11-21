@@ -41,6 +41,8 @@ private:
     void doUpdate(WorldModule&);
 };
 
+#include "GameMenu/GameMenu.hpp"
+
 #include "../WorldModule.hpp"
 
 #endif
