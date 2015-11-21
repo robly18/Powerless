@@ -1,12 +1,19 @@
 #ifndef GAMEMODULE_H
 #define GAMEMODULE_H
 
-#include "../MenuModule/MenuModule.hpp"
+#include "EntityListModule.hpp"
 #include "SimulationModule.hpp"
 
 class GameModule {
 public:
+    GameModule();
+
+    void render(sf::RenderTarget&);
+
+    EntityListModule entityList;
     SimulationModule simulation;
 };
+
+#include "../MenuModule/MenuModule.hpp"
 
 #endif
