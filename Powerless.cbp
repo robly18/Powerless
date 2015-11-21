@@ -47,6 +47,10 @@
 		<Unit filename="Main/Engine/GraphicsModule/GraphicsModule.hpp" />
 		<Unit filename="Main/Engine/InputModule/InputModule.cpp" />
 		<Unit filename="Main/Engine/InputModule/InputModule.hpp" />
+		<Unit filename="Main/Engine/WorldModule/GameModules/EntityListModule.cpp" />
+		<Unit filename="Main/Engine/WorldModule/GameModules/EntityListModule.hpp" />
+		<Unit filename="Main/Engine/WorldModule/GameModules/Entity/Entity.hpp" />
+		<Unit filename="Main/Engine/WorldModule/GameModules/GameModule.cpp" />
 		<Unit filename="Main/Engine/WorldModule/GameModules/GameModule.hpp" />
 		<Unit filename="Main/Engine/WorldModule/GameModules/SimulationModule.cpp" />
 		<Unit filename="Main/Engine/WorldModule/GameModules/SimulationModule.hpp" />
