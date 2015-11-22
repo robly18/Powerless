@@ -3,8 +3,8 @@
 GameModule::GameModule() {
     entityList.entities.push_back(std::shared_ptr<Entity>(
             new Entity(*new TestGraphicsComponent(sf::Vector2f(10,10)),
-                       *new NullAIComponent,
-                       *new NullPhysicsComponent)
+                       *new TestAIComponent,
+                       *new TestPhysicsComponent)
         ));
     Message m;
     m.type = Message::SETPOS;

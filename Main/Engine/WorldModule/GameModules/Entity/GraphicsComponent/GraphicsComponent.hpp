@@ -22,7 +22,7 @@ public:
     TestGraphicsComponent(sf::Vector2f);
 
     void render(sf::RenderTarget&, Entity&);
-    void getMessage(Message&);
+    void getMessage(const Message&);
 
 private:
     sf::RectangleShape s;

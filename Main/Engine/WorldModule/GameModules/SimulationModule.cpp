@@ -1,25 +1,9 @@
 #include "SimulationModule.hpp"
 
 void SimulationModule::doTick(GameModule &w) {
-    while (!eventQueue.empty()) {
-        switch (eventQueue.front().key.code) {
-        case sf::Keyboard::D:
-            {
-            Message m {Message::MOVE};
-            m.pos = {10, 0};
-            w.entityList.entities[0]->sendMessage(m);
-            }
-        break;
-        case sf::Keyboard::S:
-            {
-            Message m {Message::MOVE};
-            m.pos = {0, 10};
-            w.entityList.entities[0]->sendMessage(m);
-            }
-        break;
-        default: break;
-        }
-        eventQueue.pop();
+    for (auto &e : w.entityList.entities) {
+        e->ai.update(w, *e);
+        e->physics.update(w, *e);
     }
 }
 

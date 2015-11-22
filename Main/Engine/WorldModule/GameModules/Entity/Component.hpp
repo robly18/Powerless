@@ -6,7 +6,8 @@
 struct Message {
     enum {
         SETPOS,
-        MOVE
+        MOVE,
+        ACCELERATE
     } type;
     union {
         struct {
@@ -17,7 +18,7 @@ struct Message {
 
 class Component {
 public:
-    virtual void getMessage(Message&);
+    virtual void getMessage(const Message&);
 };
 
 #endif

@@ -7,12 +7,12 @@ void NullAIComponent::update(GameModule &w, Entity &e) {
 
 void TestAIComponent::update(GameModule &w, Entity &e) {
     sf::Event event;
-    while (!w.simulation.pollEvent(event)) {
+    while (w.simulation.pollEvent(event)) {
         switch (event.key.code) {
         case sf::Keyboard::D:
             {
-            Message m {Message::MOVE};
-            m.pos = {10, 0};
+            Message m {Message::ACCELERATE};
+            m.pos = {1, 0};
             w.entityList.entities[0]->sendMessage(m);
             }
         break;

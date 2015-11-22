@@ -1,4 +1,4 @@
 #include "Component.hpp"
 
-void Component::getMessage(Message &m) {
+void Component::getMessage(const Message &m) {
 }
