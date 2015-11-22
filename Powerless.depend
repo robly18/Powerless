@@ -461,28 +461,38 @@
 1448142094 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\gamemodule.cpp
 	"GameModule.hpp"
 
-1448141885 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\entity.cpp
+1448198988 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\entity.cpp
 	"Entity.hpp"
 
-1448141936 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\entity.hpp
+1448199253 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\entity.hpp
 	<memory>
+	"Component.hpp"
 	"GraphicsComponent/GraphicsComponent.hpp"
 	"AIComponent/AIComponent.hpp"
 	"PhysicsComponent/PhysicsComponent.hpp"
 
-1448141349 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\aicomponent\aicomponent.cpp
+1448142603 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\aicomponent\aicomponent.cpp
 	"AIComponent.hpp"
 
-1448141963 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\aicomponent\aicomponent.hpp
+1448199291 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\aicomponent\aicomponent.hpp
+	"../Component.hpp"
 
-1448142199 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\graphicscomponent\graphicscomponent.cpp
+1448199718 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\graphicscomponent\graphicscomponent.cpp
 	"GraphicsComponent.hpp"
 
-1448142129 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\graphicscomponent\graphicscomponent.hpp
+1448199342 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\graphicscomponent\graphicscomponent.hpp
 	<SFML/Graphics.hpp>
+	"../Component.hpp"
 
 1448141339 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\physicscomponent\physicscomponent.cpp
 	"PhysicsComponent.hpp"
 
-1448141979 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\physicscomponent\physicscomponent.hpp
+1448199407 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\physicscomponent\physicscomponent.hpp
+	"../Component.hpp"
+
+1448199703 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\component.hpp
+	<SFML/Graphics.hpp>
+
+1448199010 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\component.cpp
+	"Component.hpp"
 

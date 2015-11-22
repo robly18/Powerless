@@ -1,8 +1,10 @@
 
+#include "../Component.hpp"
+
 class GameModule;
 class Entity;
 
-class AIComponent {
+class AIComponent : public Component {
 public:
     virtual void update(GameModule&, Entity&) = 0;
 };
