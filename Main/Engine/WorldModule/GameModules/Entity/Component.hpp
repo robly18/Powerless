@@ -5,7 +5,8 @@
 
 struct Message {
     enum {
-        SETPOS
+        SETPOS,
+        MOVE
     } type;
     union {
         struct {

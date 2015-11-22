@@ -16,5 +16,7 @@ void TestGraphicsComponent::render(sf::RenderTarget &target, Entity&) {
 void TestGraphicsComponent::getMessage(Message &m) {
     if (m.type == Message::SETPOS) {
         s.setPosition(m.pos.x, m.pos.y);
+    } else if (m.type == Message::MOVE) {
+        s.move(m.pos.x, m.pos.y);
     }
 }

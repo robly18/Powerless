@@ -1,3 +1,5 @@
+#ifndef AICOMPONENT_H
+#define AICOMPONENT_H
 
 #include "../Component.hpp"
 
@@ -13,3 +15,13 @@ class NullAIComponent : public AIComponent {
 public:
     void update(GameModule&, Entity&);
 };
+
+class TestAIComponent : public AIComponent {
+public:
+    void update(GameModule&, Entity&);
+};
+
+#include "../../GameModule.hpp"
+#include "../Entity.hpp"
+
+#endif

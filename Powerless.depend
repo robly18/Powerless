@@ -431,10 +431,10 @@
 1448132504 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\menumodule\gamemenu\gamemenu.cpp
 	"GameMenu.hpp"
 
-1448142147 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\simulationmodule.cpp
+1448200997 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\simulationmodule.cpp
 	"SimulationModule.hpp"
 
-1448132972 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\simulationmodule.hpp
+1448200872 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\simulationmodule.hpp
 	<queue>
 	<iostream>
 	<SFML/Graphics.hpp>
@@ -444,12 +444,12 @@
 	"../Menu.hpp"
 	"../../GameModules/GameModule.hpp"
 
-1448132527 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\gamemodule.hpp
+1448201497 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\gamemodule.hpp
 	"EntityListModule.hpp"
 	"SimulationModule.hpp"
 	"../MenuModule/MenuModule.hpp"
 
-1448141690 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entitylistmodule.hpp
+1448201540 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entitylistmodule.hpp
 	<vector>
 	<memory>
 	<SFML/Graphics.hpp>
@@ -458,26 +458,28 @@
 1448130224 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entitylistmodule.cpp
 	"EntityListModule.hpp"
 
-1448142094 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\gamemodule.cpp
+1448199744 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\gamemodule.cpp
 	"GameModule.hpp"
 
 1448198988 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\entity.cpp
 	"Entity.hpp"
 
-1448199253 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\entity.hpp
+1448201372 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\entity.hpp
 	<memory>
 	"Component.hpp"
 	"GraphicsComponent/GraphicsComponent.hpp"
 	"AIComponent/AIComponent.hpp"
 	"PhysicsComponent/PhysicsComponent.hpp"
 
-1448142603 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\aicomponent\aicomponent.cpp
+1448201032 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\aicomponent\aicomponent.cpp
 	"AIComponent.hpp"
 
-1448199291 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\aicomponent\aicomponent.hpp
+1448201479 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\aicomponent\aicomponent.hpp
 	"../Component.hpp"
+	"../../GameModule.hpp"
+	"../Entity.hpp"
 
-1448199718 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\graphicscomponent\graphicscomponent.cpp
+1448200663 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\graphicscomponent\graphicscomponent.cpp
 	"GraphicsComponent.hpp"
 
 1448199342 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\graphicscomponent\graphicscomponent.hpp
@@ -490,7 +492,7 @@
 1448199407 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\physicscomponent\physicscomponent.hpp
 	"../Component.hpp"
 
-1448199703 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\component.hpp
+1448200502 c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\component.hpp
 	<SFML/Graphics.hpp>
 
 1448199010 source:c:\code\cplusplus\code\powerless\main\engine\worldmodule\gamemodules\entity\component.cpp

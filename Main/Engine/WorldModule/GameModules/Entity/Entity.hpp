@@ -1,5 +1,7 @@
-#include <memory>
+#ifndef ENTITY_H
+#define ENTITY_H
 
+#include <memory>
 
 class GraphicsComponent;
 class AIComponent;
@@ -22,3 +24,5 @@ public:
 #include "GraphicsComponent/GraphicsComponent.hpp"
 #include "AIComponent/AIComponent.hpp"
 #include "PhysicsComponent/PhysicsComponent.hpp"
+
+#endif
