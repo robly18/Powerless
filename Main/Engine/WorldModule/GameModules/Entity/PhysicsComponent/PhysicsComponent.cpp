@@ -6,11 +6,12 @@ void NullPhysicsComponent::update(GameModule &w, Entity &e) {
 
 
 void TestPhysicsComponent::update(GameModule &w, Entity &e) {
-    if (x + speedx > 200) {
-        speedx = 0;
+    float deltax = speedx * w.simulation.delta.asSeconds();
+    if (x + deltax > 200) {
+        speedx = -speedx;
     }
     Message m {Message::MOVE};
-    m.pos = {speedx, speedy};
+    m.pos = {deltax, speedy};
     e.sendMessage(m);
 }
 

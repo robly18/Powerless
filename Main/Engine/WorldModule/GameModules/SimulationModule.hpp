@@ -13,7 +13,9 @@ public:
     void pushToQueue(sf::Event&); //Pushes the event to the eventQueue so player AI knows what to do
 
     bool pollEvent(sf::Event&);
+    sf::Time delta; //Time since last tick
 private:
+    sf::Clock clock;
     std::queue<sf::Event> eventQueue; //todo: friend class playerAI
 };
 

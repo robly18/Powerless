@@ -1,6 +1,7 @@
 #include "SimulationModule.hpp"
 
 void SimulationModule::doTick(GameModule &w) {
+    delta = clock.restart();
     for (auto &e : w.entityList.entities) {
         e->ai.update(w, *e);
         e->physics.update(w, *e);
