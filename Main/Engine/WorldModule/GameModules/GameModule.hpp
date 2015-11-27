@@ -3,6 +3,7 @@
 
 #include "EntityListModule.hpp"
 #include "SimulationModule.hpp"
+#include "Level/LevelModule.hpp"
 
 class GameModule {
 public:
@@ -12,6 +13,7 @@ public:
 
     EntityListModule entityList;
     SimulationModule simulation;
+    LevelModule      level;
 };
 
 #include "../MenuModule/MenuModule.hpp"
