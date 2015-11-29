@@ -9,7 +9,7 @@ void SimulationModule::doTick(GameModule &w) {
 }
 
 void SimulationModule::pushToQueue(sf::Event &e) {
-    if (e.type == sf::Event::KeyPressed) {
+    if (e.type == sf::Event::KeyPressed || e.type == sf::Event::KeyReleased) {
         eventQueue.push(e);
     }
 }

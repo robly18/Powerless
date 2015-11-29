@@ -1,6 +1,7 @@
 #include "Level.hpp"
+#include <iostream>
 
-CTile::CType CTile::typeAt(const sf::Vector2f pos) const {
+CType CTile::typeAt(const sf::Vector2f pos) const {
     switch (type) {
     case AIR:
         return AIR;
@@ -15,12 +16,32 @@ CTile::CType CTile::typeAt(const sf::Vector2f pos) const {
     }
 }
 
-Level::Level() :
-    width(10), height(10), leveldata(width*height) {
-    for (int y = 0; y != 10; y++)
-    for (int x = 0; x != 10; x++) {
-        leveldata[x+y*width].type = CTile::AIR;
+void CTile::render(sf::RenderTarget &target, sf::Vector2f pos) {
+    sf::RectangleShape s({CTILESIDE, CTILESIDE});
+    s.setPosition(pos);
+    switch (type) {
+    case AIR:
+        s.setFillColor(sf::Color::Blue);
+        break;
+    default:
+        s.setFillColor(sf::Color::White);
+        break;
     }
-    leveldata[5+9*width].type = CTile::GROUND;
+    target.draw(s);
+}
 
+Level::Level() :
+    width(10), height(10), leveldata(10*10, CTile{CTile::AIR}) {
+    for (int x = 0; x != 10; x++) {
+        leveldata[x+9*width].type = CTile::GROUND;
+    }
+    leveldata[5+8*width].type = CTile::GROUND;
+
+}
+
+void Level::render(sf::RenderTarget &target) {
+    for (int x = 0; x != width; x++)
+    for (int y = 0; y != height; y++) {
+        leveldata[x+y*width].render(target, {x*CTile::CTILESIDE,y*CTile::CTILESIDE});
+    }
 }

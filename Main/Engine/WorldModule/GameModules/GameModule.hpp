@@ -5,6 +5,9 @@
 #include "SimulationModule.hpp"
 #include "Level/LevelModule.hpp"
 
+#include "Entity/PhysicsComponent/Player/PlayerPhysicsComponent.hpp"
+#include "Entity/AIComponent/Player/PlayerAIComponent.hpp"
+
 class GameModule {
 public:
     GameModule();

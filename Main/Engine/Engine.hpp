@@ -10,11 +10,12 @@ public:
     Engine();
     ~Engine();
 
+    sf::RenderWindow window;
+
     GraphicsModule graphics;
     InputModule input;
     WorldModule world;
 
-    sf::RenderWindow window;
 };
 
 

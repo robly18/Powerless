@@ -7,12 +7,15 @@ struct Message {
     enum {
         SETPOS,
         MOVE,
-        ACCELERATE
+        ACCELERATE,
+        SETSTATE,
+        UNSTATE
     } type;
     union {
         struct {
             float x, y;
         } pos;
+        int state;
     };
 };
 
